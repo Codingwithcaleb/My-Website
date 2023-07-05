@@ -207,7 +207,6 @@ section {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  border: 1px solid;
   flex-wrap: wrap;
   height: 10%;
   gap: 4%;
@@ -215,7 +214,6 @@ section {
 
 .about-text {
   display: flex;
-  border: 1px solid; 
   position: relative;
   width: 45%;
 }
