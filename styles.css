@@ -206,6 +206,7 @@ section {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   border: 1px solid;
   flex-wrap: wrap;
   height: 10%;
@@ -216,14 +217,14 @@ section {
   display: flex;
   border: 1px solid; 
   position: relative;
-  width: 500px;
+  width: 45%;
 }
 
 .about-img {
   position: relative;
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 45%;
+  width: 45%;
   border-radius: 3%;
 }
 .about-img img{
@@ -232,6 +233,18 @@ section {
   width: 100%;
   box-shadow: gray 0 0 10px;
   border-radius: 3%;
+}
+
+@media all and (max-width:375px){
+ .about-contanir {
+  flex-direction: column;
+ }
+ .about-text {
+  width: 100%;
+  }
+  .about-img {
+  width: 100%;
+  }
 }
 
 /*Reviews*/
