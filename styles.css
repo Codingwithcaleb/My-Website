@@ -549,11 +549,6 @@ a{
 
 /*services*/
 
-.portfolio-item {
-  display: flex;
-}
-
-
 .services-container {
   position: relative;
   display: flex;
