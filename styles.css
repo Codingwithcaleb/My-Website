@@ -734,6 +734,7 @@ a{
   display: inline-block;
   justify-content: center;
   align-items: center;
+  padding-left: 60px;
   min-height: 10vh;
 }
 
